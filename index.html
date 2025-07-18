@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto de Capacitación</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">Instituto Online</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sucursales">Sucursales</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formulario">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselInicio" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img\1.webp" class="d-block w-100" alt="Curso 1">
+      </div>
+      <div class="carousel-item">
+        <img src="img\2.jpg" class="d-block w-100" alt="Curso 2">
+      </div>
+      <div class="carousel-item">
+        <img src="img\3.jpg" class="d-block w-100" alt="Curso 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselInicio" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselInicio" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  
+  <section id="cursos" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Nuestros Cursos</h2>
+      <p class="text-center mb-5">En nuestro instituto online encontrarás una variedad de cursos diseñados para potenciar tus habilidades y abrir nuevas oportunidades laborales. Desde el mundo del desarrollo web y el diseño gráfico, hasta estrategias de marketing digital, nuestros programas están pensados para adaptarse a las necesidades del mercado actual. Todos los cursos son impartidos por profesionales calificados y están disponibles 100% online, para que puedas aprender desde cualquier lugar.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/p.jpg" class="card-img-top" alt="Programación">
+            <div class="card-body">
+              <h5 class="card-title">Programación Web</h5>
+              <p class="card-text">Aprende a crear sitios web desde cero. <br><strong>Duración:</strong> 3 meses<br><strong>Precio:</strong> $150.000 CLP</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/d.jpg" class="card-img-top" alt="Diseño">
+            <div class="card-body">
+              <h5 class="card-title">Diseño Gráfico</h5>
+              <p class="card-text">Domina herramientas de diseño visual. <br><strong>Duración:</strong> 2 meses<br><strong>Precio:</strong> $120.000 CLP</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/m.webp" class="card-img-top" alt="Marketing">
+            <div class="card-body">
+              <h5 class="card-title">Marketing Digital</h5>
+              <p class="card-text">Promociona productos en línea efectivamente. <br><strong>Duración:</strong> 2.5 meses<br><strong>Precio:</strong> $135.000 CLP</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sucursales" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Nuestras Sucursales</h2>
+      <ul class="list-group list-group-flush text-center">
+        <li class="list-group-item">Santiago Centro - Av. Libertador 123</li>
+        <li class="list-group-item">Valparaíso - Calle Marina 456</li>
+        <li class="list-group-item">Concepción - Av. Los Carrera 789</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section id="formulario" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Solicita Información</h2>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Nombre completo" required>
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" placeholder="Correo electrónico" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Escribe tu consulta aquí..." required></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
